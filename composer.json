@@ -1,0 +1,34 @@
+{
+    "name": "shivergard/dragonsofmugloar",
+    "description": "kingdom of Mugloar test task",
+    "repositories": [
+      {
+      "type": "git",
+       "url": "git@github.com:dosjein/external_artisan.git"
+      }
+    ],
+    "require": {
+        "dosjein/external_artisan": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "license": "wodoo-unknown : feel free to use",
+    "authors": [
+        {
+            "name": "Ronalds Sovas",
+            "email": "sovas@greenbox.lv"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src",
+            "src/Console",
+            "src/Console/Commands"
+        ],
+        "psr-0": {
+            "Shivergard\\DragonsOfMugloar\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
